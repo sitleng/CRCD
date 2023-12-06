@@ -26,7 +26,7 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
 - Build the package
   ```
   cd ..
-	catkin build --summary
+  catkin build --summary
   ```
 
 ## Citation
