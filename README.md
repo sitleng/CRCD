@@ -31,6 +31,9 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
   catkin build --summary
   ```
 
+## Tutorials
+- There is a tutorial notebook on how to access each recording in the dataset. [CRCD Tutorial](notebooks/CRCD Tutorial)
+
 ## Citation
 
 If you found this dataset helpful, please consider citing: 
