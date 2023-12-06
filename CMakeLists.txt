@@ -112,7 +112,7 @@ generate_messages(
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES CRCD
+#  LIBRARIES crcd_ros
 #  CATKIN_DEPENDS cv_bridge geometry_msgs message_filters roscpp rospy sensor_msgs sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
@@ -130,7 +130,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/CRCD.cpp
+#   src/${PROJECT_NAME}/crcd_ros.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -141,7 +141,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/CRCD_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/crcd_ros_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -205,7 +205,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_CRCD.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_crcd_ros.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()
