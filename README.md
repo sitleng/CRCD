@@ -1,1 +1,1 @@
-# CRCD
+# Comprehensive Robotic Cholecystectomy Dataset (CRCD)
