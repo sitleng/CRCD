@@ -32,7 +32,7 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
   ```
 
 ## Tutorials
-- There is a tutorial notebook on how to access each recording in the dataset. [CRCD Tutorial](notebooks/CRCD Tutorial)
+- There is a tutorial notebook on how to access each recording in the dataset. [CRCD Tutorial](notebooks/CRCD_Tutorial.ipynb)
 
 ## Citation
 
