@@ -10,7 +10,9 @@ You can download the dataset mentioned in the paper through the following link:
 https://uofi.box.com/s/5u2njsggi2qp5og4pg97ncw79anlw1qa
 
 ## ROS Setup
+
 The kinematic and pedal datasets are recorded in rosbag files. 
+
 The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu 20.04 device.
 
 - First, install ROS Noetic from the official website: http://wiki.ros.org/noetic/Installation/Ubuntu
@@ -30,6 +32,7 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
   ```
 
 ## Citation
+
 If you found this dataset helpful, please consider citing: 
 ```
 @misc{oh2023comprehensive,
