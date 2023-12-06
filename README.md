@@ -21,7 +21,12 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
   ```
 - Clone our repository
   ```
-  git clone 
+  git clone https://github.com/Borgioli/crcd_ros.git
+  ```
+- Build the package
+  ```
+  cd ..
+	catkin build --summary
   ```
 
 ## Citation
