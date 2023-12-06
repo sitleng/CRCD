@@ -19,6 +19,10 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
   mkdir -p ~/workspace_name_ws/src
   cd ~/workspace_name_ws/src
   ```
+- Clone our repository
+  ```
+  git clone 
+  ```
 
 ## Citation
 If you found this dataset helpful, please consider citing: 
