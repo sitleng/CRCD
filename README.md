@@ -36,7 +36,7 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
 
 ## Citation
 
-If you found this dataset helpful, please consider citing: 
+Please cite our paper if you used our dataset in any form.: 
 ```
 @misc{oh2023comprehensive,
       title={Comprehensive Robotic Cholecystectomy Dataset (CRCD): Integrating Kinematics, Pedal Signals, and Endoscopic Videos}, 
