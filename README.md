@@ -15,7 +15,8 @@ The kinematic and pedal datasets are recorded in rosbag files.
 
 The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu 20.04 device.
 
-- First, install ROS Noetic following the instructions from the official website: http://wiki.ros.org/noetic/Installation/Ubuntu
+- First, install ROS Noetic following the instructions from the official website:
+  http://wiki.ros.org/noetic/Installation/Ubuntu
 - Create the ROS workspace:
   ```
   mkdir -p ~/catkin_ws/src
