@@ -54,6 +54,7 @@ source ~/.bashrc
 
 ## OpenCV CUDA Build
 OpenCV is recommended to be built with CUDA enabled to generate point clouds.
+
 Reference: https://github.com/opencv/opencv-python
 
 You can follow these steps tested on Ubuntu 20.04.
@@ -63,12 +64,13 @@ You can follow these steps tested on Ubuntu 20.04.
 git clone --recursive https://github.com/opencv/opencv-python.git
 ```
 
-2. Go to the OpenCV directory.
+2. Go to the OpenCV directory:
 ```
 cd opencv-python
 ```
 
 3. Add custom Cmake flags. Here is an example for the Nvidia RTX 4060 ti.
+   
    (check the cuDNN at https://developer.nvidia.com/cuda-gpus):
    
 ```
@@ -102,6 +104,7 @@ echo $PYTHONPATH
 ```
 
 8. Unzip the wheel to one of the PYTHONPATH locations:
+
 (e.g. assuming you installed OpenCV version 4.8.1)
 ```
 unzip opencv_contrib_python-4.8.1.78-cp39-cp39-linux_x86_64.whl -d /home/$USER/anaconda3/envs/<your_conda_env>/lib/<conda_env_python_version>/site-packages
