@@ -42,9 +42,13 @@ In Ubuntu, you might need to source the ```TESSDATA_PREFIX``` to the tessdata di
 ```
 sudo subl ~/.bashrc
 ```
-- Then add this line at the end of the file. The path can be different.
+- Add this line at the end of the file. The path can be different.
 ```
 export TESSDATA_PREFIX=/usr/share/tessdata
+```
+- Then source bashrc.
+```
+source ~/.bashrc
 ```
   
 
