@@ -52,7 +52,8 @@ export TESSDATA_PREFIX=/usr/share/tessdata
 source ~/.bashrc
 ```
 
-
+## OpenCV CUDA Build
+The o
 
 
 ## Tutorials
@@ -62,12 +63,15 @@ source ~/.bashrc
 
 Please cite our paper if you used our dataset in any form: 
 ```
-@misc{oh2023comprehensive,
-      title={Comprehensive Robotic Cholecystectomy Dataset (CRCD): Integrating Kinematics, Pedal Signals, and Endoscopic Videos}, 
-      author={Ki-Hwan Oh and Leonardo Borgioli and Alberto Mangano and Valentina Valle and Marco Di Pangrazio and Francesco Toti and Gioia Pozza and Luciano Ambrosini and Alvaro Ducas and Milos Zefran and Liaohai Chen and Pier Cristoforo Giulianotti},
-      year={2023},
-      eprint={2312.01183},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO}
-}
+@INPROCEEDINGS{koh2024crcd,
+  author={Oh, Ki-Hwan and Borgioli, Leonardo and Mangano, Alberto and Valle, Valentina and Di Pangrazio, Marco and Toti, Francesco and Pozza, Gioia and Ambrosini, Luciano and Ducas, Alvaro and Žefran, Miloš and Chen, Liaohai and Giulianotti, Pier Cristoforo},
+  booktitle={2024 International Symposium on Medical Robotics (ISMR)}, 
+  title={Comprehensive Robotic Cholecystectomy Dataset (CRCD): Integrating Kinematics, Pedal Signals, and Endoscopic Videos}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Medical robotics;Automation;Robot vision systems;Liver;Kinematics;Predictive models;Cameras},
+  doi={10.1109/ISMR63436.2024.10585836}}
+
 ```
