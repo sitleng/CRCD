@@ -72,6 +72,7 @@ Please cite our paper if you used our dataset in any form:
   number={},
   pages={1-7},
   keywords={Medical robotics;Automation;Robot vision systems;Liver;Kinematics;Predictive models;Cameras},
-  doi={10.1109/ISMR63436.2024.10585836}}
+  doi={10.1109/ISMR63436.2024.10585836}
+}
 
 ```
