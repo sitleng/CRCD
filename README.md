@@ -105,7 +105,7 @@ echo $PYTHONPATH
 
 8. Unzip the wheel to one of the PYTHONPATH locations:
 
-(e.g. assuming you installed OpenCV version 4.8.1)
+   (e.g., assuming you installed OpenCV version 4.8.1)
 ```
 unzip opencv_contrib_python-4.8.1.78-cp39-cp39-linux_x86_64.whl -d /home/$USER/anaconda3/envs/<your_conda_env>/lib/<conda_env_python_version>/site-packages
 ```
