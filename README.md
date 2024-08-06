@@ -13,7 +13,7 @@ https://uofi.box.com/s/5u2njsggi2qp5og4pg97ncw79anlw1qa
 
 The kinematic and pedal datasets are recorded in rosbag files. 
 
-The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu 20.04 device.
+The files have been tested without errors on ROS1 Noetic, installed in an Ubuntu 20.04 device.
 
 - First, install ROS Noetic following the instructions from the official website:
 
@@ -34,8 +34,22 @@ The files have been tested with no errors on ROS1 Noetic, installed in an Ubuntu
   catkin build --summary
   ```
 
+## Tesseract OCR
+For real-time Tesseract OCR in Python, it is recommended that you install tesserocr (https://github.com/sirfz/tesserocr).
+
+In Ubuntu, you might need to source the '''TESSDATA_PREFIX''' to the tessdata directory.
+- Open the bashrc with your preferred text editor (sublime text is used in this example).
+'''
+sudo subl ~/.bashrc
+'''
+- Then add this line at the end of the file. The path can be different.
+'''
+export TESSDATA_PREFIX=/usr/share/tessdata
+'''
+  
+
 ## Tutorials
-- There is a tutorial notebook on how to access each recording in the dataset. [CRCD Tutorial](notebooks/CRCD_Tutorial.ipynb)
+- There is a tutorial notebook on accessing each recording in the dataset. [CRCD Tutorial](notebooks/CRCD_Tutorial.ipynb)
 
 ## Citation
 
