@@ -9,6 +9,10 @@ You can download the dataset mentioned in the paper through the following link:
 
 https://uofi.box.com/s/5u2njsggi2qp5og4pg97ncw79anlw1qa
 
+## Tutorials
+
+Please check the notebooks folder containing the tutorials for each usage [CRCD Tutorials](notebooks/).
+
 ## ROS Setup
 
 The kinematic and pedal datasets are recorded in rosbag files. 
@@ -110,8 +114,7 @@ echo $PYTHONPATH
 unzip opencv_contrib_python-4.8.1.78-cp39-cp39-linux_x86_64.whl -d /home/$USER/anaconda3/envs/<your_conda_env>/lib/<conda_env_python_version>/site-packages
 ```
 
-## Tutorials
-- There is a tutorial notebook on accessing each recording in the dataset. [CRCD Tutorial](notebooks/CRCD_Tutorial.ipynb)
+
 
 ## Citation
 
