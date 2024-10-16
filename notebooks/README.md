@@ -1,4 +1,4 @@
-# Tutorial Notebooks
+# Base Tutorials
 
 ## Intro
 
@@ -8,11 +8,7 @@ Here are some notebooks to guide for each usage:
 
 - [Basic Tutorial 2](crcd_dataframe.ipynb): Shows how to create a pandas dataframe with synchronized robot arm kinematics and the console pedal inputs.
 
-## Dataset
-
-You can download the dataset mentioned in the paper through the following link:
-
-https://uofi.box.com/s/5u2njsggi2qp5og4pg97ncw79anlw1qa
+The following setups are required to run the base tutorials.
 
 ## ROS Setup
 
@@ -57,6 +53,12 @@ export TESSDATA_PREFIX=/usr/share/tessdata
 ```
 source ~/.bashrc
 ```
+
+## Pandas
+
+Converting the rosbag recordings to pandas dataframes are useful when loading the robot arm kinematics and console pedal inputs and use them to train different types of machine learning models. 
+
+Please follow these steps from the official website (https://pandas.pydata.org/docs/getting_started/install.html).
 
 ## Citation
 

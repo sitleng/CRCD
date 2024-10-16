@@ -1,4 +1,4 @@
-# Tutorial Notebooks
+# Computer Vision Tutorials
 
 ## Intro
 
@@ -12,7 +12,7 @@ Here are some notebooks to guide for each usage:
 
 ## Conda environment
 
-It is recommended to create a virtual python environment before installing the OpenCV and Detectron2
+It is recommended to create a virtual python environment before building the OpenCV CUDA and installing Detectron2
 
 - Follow the [official installation steps](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html) for conda.
 
@@ -32,7 +32,10 @@ OpenCV is recommended to be built with CUDA enabled to generate point clouds.
 
 Reference: https://github.com/opencv/opencv-python
 
-You can follow these steps tested on Ubuntu 20.04.
+Please follow these steps after activating the conda environment.
+
+0. CUDA toolkit installation:
+Choose the version you prefer and follow the [official installation steps](https://developer.nvidia.com/cuda-toolkit-archive).
 
 1. Clone repository:
 ```
@@ -52,13 +55,11 @@ cd opencv-python
 export CMAKE_ARGS="-D CMAKE_BUILD_TYPE=RELEASE \
 	-D WITH_CUBLAS=ON \
 	-D WITH_CUDA=ON \
-	-D WITH_CUDNN=ON \
-	-D BUILD_opencv_cudacodec=OFF \
-	-D BUILD_opencv_cudaoptflow=OFF \
-	-D OPENCV_DNN_CUDA=ON \
-	-D PARALLEL_ENABLE_PLUGINS=OFF \
-	-D CUDA_ARCH_BIN=8.9 \
+	-D OPENCV_DNN_CUDA=OFF \
 	-D WITH_OPENGL=ON \
+	-D WITH_NVCUVID=OFF \
+	-D WITH_NVCUVENC=OFF \
+	-D CUDA_ARCH_BIN=8.9 \
 	-D OPENCV_ENABLE_NONFREE=ON .."
 ```
 
@@ -85,18 +86,24 @@ echo $PYTHONPATH
 unzip opencv_contrib_python-4.8.1.78-cp39-cp39-linux_x86_64.whl -d /home/$USER/anaconda3/envs/<your_conda_env>/lib/<conda_env_python_version>/site-packages
 ```
 
+9. To verify the installation, run the following python code to check whether it can access the graphic card.
+```
+import cv2
+
+cv2.cuda.GpuMat()
+```
+
 ## Detectron2 Setup
 
-It is required to setup a virtual environment with detectron2 installed to safely run the Detectron2 notebooks.
+Here are the steps to install PyTorch and Detectron2 to run tissue segmentations and instrument keypoint detections.
 
-1. 
+Please follow these steps after activating the conda environment.
 
+1. Based on your current CUDA version, please install the corresponding PyTorch version (https://pytorch.org/).
 
-Reference: https://detectron2.readthedocs.io/en/latest/tutorials/install.html
+2. Install Detectron2 (https://detectron2.readthedocs.io/en/latest/tutorials/install.html)
 
-
-
-You can follow these steps tested on Ubuntu 20.04.
+3. To verify the installation, run the first cell in any of the Detectron2 notebooks.
 
 
 ## Citation
