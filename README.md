@@ -5,14 +5,23 @@ by Ki-Hwan Oh, Leonardo Borgioli, Alberto Mangano, Valentina Valle, Marco Di Pan
 
 ## Dataset
 
-You can download the dataset mentioned in the paper through the following link:
+Link to the full dataset:
 
 https://uofi.box.com/s/5u2njsggi2qp5og4pg97ncw79anlw1qa
+
+The original dataset containing the stereo endoscopic videos, kinematics, and the pedal inputs:
+
+https://uofi.box.com/s/p3aocj6yzq4ctwc0s635a2dfyk9zdv5j
+
+
+The annotated dataset with the tissue segmenations and instrument keypoint annotations:
+
+https://uofi.box.com/s/f9bg69ve6fkwktr3o33ahmp620w8jth6
+
 
 ## Tutorials
 
 Please check the notebooks folder containing the tutorials for each usage [CRCD Tutorials](notebooks/).
-
 
 ## Citation
 
