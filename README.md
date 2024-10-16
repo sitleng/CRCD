@@ -13,11 +13,9 @@ The original dataset containing the stereo endoscopic videos, kinematics, and th
 
 https://uofi.box.com/s/p3aocj6yzq4ctwc0s635a2dfyk9zdv5j
 
-
 The annotated dataset with the tissue segmenations and instrument keypoint annotations:
 
 https://uofi.box.com/s/f9bg69ve6fkwktr3o33ahmp620w8jth6
-
 
 ## Tutorials
 
@@ -38,5 +36,4 @@ Please cite our paper if you used our dataset in any form:
   keywords={Medical robotics;Automation;Robot vision systems;Liver;Kinematics;Predictive models;Cameras},
   doi={10.1109/ISMR63436.2024.10585836}
 }
-
 ```

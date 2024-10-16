@@ -4,11 +4,11 @@
 
 Here are some notebooks to guide for each usage:
 
-- [PointCloud Tutorial](cv/crcd_pcl.ipynb): 3D reconstruction example with the stereo endoscopic images.
+- [PointCloud Tutorial](crcd_pcl.ipynb): 3D reconstruction example with the stereo endoscopic images.
 
-- [Detectron2 Segmentation](cv/crcd_detectron2_segmentation.ipynb): Shows how to load the annotated tissue segmentation dataset and fine tune the model.
+- [Detectron2 Segmentation](crcd_detectron2_segmentation.ipynb): Shows how to load the annotated tissue segmentation dataset and fine tune the model.
 
-- [Detectron2 Keypoints](cv/crcd_detectron2_keypoints.ipynb): Shows how to load the annotated instrument keypoint dataset and fine tune the model.
+- [Detectron2 Keypoints](crcd_detectron2_keypoints.ipynb): Shows how to load the annotated instrument keypoint dataset and fine tune the model.
 
 ## Conda environment
 
