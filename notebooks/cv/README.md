@@ -92,7 +92,7 @@ import cv2
 
 cv2.cuda.GpuMat()
 ```
-Corresponding output should be something like:
+   Corresponding output should be something like:
 ```
 < cv2.cuda.GpuMat 0x7f90537bbf50>
 ```
