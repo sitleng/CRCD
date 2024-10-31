@@ -10,11 +10,11 @@ Link to the full dataset:
 
 https://uofi.box.com/s/5u2njsggi2qp5og4pg97ncw79anlw1qa
 
-The original dataset containing the stereo endoscopic videos, kinematics, and the pedal inputs:
+The original dataset containing the stereo endoscopic videos, kinematics, and pedal inputs:
 
 https://uofi.box.com/s/p3aocj6yzq4ctwc0s635a2dfyk9zdv5j
 
-The annotated dataset with the tissue segmenations and instrument keypoint annotations:
+The annotated dataset with the tissue segmentations and instrument keypoint annotations:
 
 https://uofi.box.com/s/f9bg69ve6fkwktr3o33ahmp620w8jth6
 
