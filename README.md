@@ -6,17 +6,9 @@ by Ki-Hwan Oh, Leonardo Borgioli, Alberto Mangano, Valentina Valle, Marco Di Pan
 
 ## Dataset
 
-Link to the full dataset:
-
-https://uofi.box.com/s/5u2njsggi2qp5og4pg97ncw79anlw1qa
-
-The original dataset containing the stereo endoscopic videos, kinematics, and pedal inputs:
-
-https://uofi.box.com/s/p3aocj6yzq4ctwc0s635a2dfyk9zdv5j
-
-The annotated dataset with the tissue segmentations and instrument keypoint annotations:
-
-https://uofi.box.com/s/f9bg69ve6fkwktr3o33ahmp620w8jth6
+- **Raw Dataset:** Videos, da Vinci Kinematics, and da Vinci Consolde Pedal Usage. ([Link](https://uofi.box.com/s/p3aocj6yzq4ctwc0s635a2dfyk9zdv5j))
+- **Annotated Dataset:** Dataset including frames with annotated tissue segmentation or instrument keypoints. ([Link](https://uofi.box.com/s/f9bg69ve6fkwktr3o33ahmp620w8jth6))
+- **Additional Information:** Includes the stereo endoscopic camera calibrations and the background information of each surgeon. ([Link](https://uofi.box.com/s/w65rui5ylm0i4v4jvlkpacpi4q6jkdpe))
 
 ## Tutorials
 
