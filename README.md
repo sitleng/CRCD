@@ -34,15 +34,15 @@ Please cite our paper if you used our dataset in any form:
 }
 
 @article{doi:10.1142/S2424905X25500060,
-author = {Oh, Ki-Hwan and Borgioli, Leonardo and Mangano, Alberto and Valle, Valentina and Pangrazio, Marco Di and Toti, Francesco and Pozza, Gioia and Ambrosini, Luciano and Ducas, Alvaro and \v{Z}efran, Milo\v{s} and Chen, Liaohai and Giulianotti, Pier Cristoforo},
-title = {Expanded Comprehensive Robotic Cholecystectomy Dataset},
-journal = {Journal of Medical Robotics Research},
-volume = {0},
-number = {0},
-pages = {2550006},
-year = {0},
-doi = {10.1142/S2424905X25500060},
-URL = {https://doi.org/10.1142/S2424905X25500060},
-eprint = {https://doi.org/10.1142/S2424905X25500060}
+  author = {Oh, Ki-Hwan and Borgioli, Leonardo and Mangano, Alberto and Valle, Valentina and Pangrazio, Marco Di and Toti, Francesco and Pozza, Gioia and Ambrosini, Luciano and Ducas, Alvaro and \v{Z}efran, Milo\v{s} and Chen, Liaohai and Giulianotti, Pier Cristoforo},
+  title = {Expanded Comprehensive Robotic Cholecystectomy Dataset},
+  journal = {Journal of Medical Robotics Research},
+  volume = {0},
+  number = {0},
+  pages = {2550006},
+  year = {0},
+  doi = {10.1142/S2424905X25500060},
+  URL = {https://doi.org/10.1142/S2424905X25500060},
+  eprint = {https://doi.org/10.1142/S2424905X25500060}
 }
 ```
