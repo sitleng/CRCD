@@ -9,7 +9,7 @@ by Ki-Hwan Oh, Leonardo Borgioli, Alberto Mangano, Valentina Valle, Marco Di Pan
 
 ## Dataset
 
-- **Raw Dataset:** Videos, da Vinci Kinematics, and da Vinci Consolde Pedal Usage. ([Link](https://uofi.box.com/s/p3aocj6yzq4ctwc0s635a2dfyk9zdv5j))
+- **Raw Dataset:** Videos, da Vinci Kinematics, and da Vinci Console Pedal Usage. ([Link](https://uofi.box.com/s/p3aocj6yzq4ctwc0s635a2dfyk9zdv5j))
 - **Annotated Dataset:** Dataset including frames with annotated tissue segmentation or instrument keypoints. ([Link](https://uofi.box.com/s/f9bg69ve6fkwktr3o33ahmp620w8jth6))
 - **Additional Information:** Includes the stereo endoscopic camera calibrations and the background information of each surgeon. ([Link](https://uofi.box.com/s/w65rui5ylm0i4v4jvlkpacpi4q6jkdpe))
 
@@ -31,5 +31,18 @@ Please cite our paper if you used our dataset in any form:
   pages={1-7},
   keywords={Medical robotics;Automation;Robot vision systems;Liver;Kinematics;Predictive models;Cameras},
   doi={10.1109/ISMR63436.2024.10585836}
+}
+
+@article{doi:10.1142/S2424905X25500060,
+author = {Oh, Ki-Hwan and Borgioli, Leonardo and Mangano, Alberto and Valle, Valentina and Pangrazio, Marco Di and Toti, Francesco and Pozza, Gioia and Ambrosini, Luciano and Ducas, Alvaro and \v{Z}efran, Milo\v{s} and Chen, Liaohai and Giulianotti, Pier Cristoforo},
+title = {Expanded Comprehensive Robotic Cholecystectomy Dataset},
+journal = {Journal of Medical Robotics Research},
+volume = {0},
+number = {0},
+pages = {2550006},
+year = {0},
+doi = {10.1142/S2424905X25500060},
+URL = {https://doi.org/10.1142/S2424905X25500060},
+eprint = {https://doi.org/10.1142/S2424905X25500060}
 }
 ```
