@@ -5,7 +5,9 @@ by Ki-Hwan Oh, Leonardo Borgioli, Alberto Mangano, Valentina Valle, Marco Di Pan
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2312.01183) [![IEEE](https://img.shields.io/badge/IEEE-Paper-blue?logo=ieee)](https://ieeexplore.ieee.org/abstract/document/10585836) [![BibTeX](https://img.shields.io/badge/BibTeX-Citation-orange?logo=bibtex)](https://uofi.box.com/s/0cxpk70we719hxcqsdn3bx05lw9yfsth) [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/SITL-Eng/CRCD)
 
 ## Updates
-- Published the expanded version of CRCD in JMRR: [![arXiv](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2412.12238#)
+Published the expanded version of CRCD in JMRR:
+
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2412.12238#) [![JMRR](https://img.shields.io/badge/JMRR-World%20Scientific-blue)](https://doi.org/10.1142/S2424905X25500060)
 
 ## Dataset
 
