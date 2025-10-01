@@ -60,6 +60,8 @@ Example usage and tutorials are available in the [notebooks/](notebooks/) folder
 
 <a href="https://www.buymeacoffee.com/koh43" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"></a>
 
+---
+
 ## Citation
 
 If you use CRCD in your research, please cite:
