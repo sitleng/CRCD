@@ -78,3 +78,7 @@ If you use CRCD in your research, please cite:
   doi = {10.1142/S2424905X25500060},
   URL = {https://doi.org/10.1142/S2424905X25500060}
 }
+
+## 🛠️ Support
+
+<a href="https://www.buymeacoffee.com/koh43" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"></a>
