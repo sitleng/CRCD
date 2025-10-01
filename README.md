@@ -45,6 +45,10 @@ Expanded version of CRCD published in **Journal of Medical Robotics Research (JM
   Provides **stereo endoscopic camera calibrations** and **background info of each surgeon**.  
   [Download Link](https://uofi.box.com/s/w65rui5ylm0i4v4jvlkpacpi4q6jkdpe)
 
+- **Synchronized Dataset (HuggingFace)**
+  [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/SITL-Eng/CRCD)
+  Contains the synchronized **endoscopic videos**, **da Vinci kinematics**, and **console pedal usage**.
+
 ---
 
 ## Tutorials
