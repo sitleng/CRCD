@@ -1,11 +1,11 @@
 # Comprehensive Robotic Cholecystectomy Dataset (CRCD)
 
-The **Comprehensive Robotic Cholecystectomy Dataset (CRCD)** is a large-scale, publicly available dataset for **robot-assisted surgery research**.  
-It provides synchronized **endoscopic videos, da Vinci surgical robot kinematics, and pedal usage signals**, making it one of the most complete multimodal resources for studying **robotic cholecystectomy procedures**.  
+The **Comprehensive Robotic Cholecystectomy Dataset (CRCD)** is a large-scale, publicly available dataset for **robot-assisted surgery (RAS) research**.  
+It provides synchronized **endoscopic videos, da Vinci surgical robot kinematics, and pedal usage signals**, making it one of the most comprehensive multimodal resources for studying **robotic cholecystectomy procedures**.  
 
 CRCD is designed to support research in:
-- **Medical robotics and surgical automation**
-- **Computer vision for surgery**
+- **Controls in RAS**
+- **Computer vision for RAS**
 - **Surgical workflow analysis and phase recognition**
 - **AI and machine learning in healthcare**
 - **Skill assessment and surgical training**
@@ -18,16 +18,12 @@ By integrating visual, kinematic, and control data, CRCD enables work on **instr
 
 by Ki-Hwan Oh, Leonardo Borgioli, Alberto Mangano, Valentina Valle, Marco Di Pangrazio, Francesco Toti, Gioia Pozza, Luciano Ambrosini, Alvaro Ducas, Miloš Žefran, Liaohai Chen, Pier Cristoforo Giulianotti  
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2312.01183)  
-[![IEEE](https://img.shields.io/badge/IEEE-Paper-blue?logo=ieee)](https://ieeexplore.ieee.org/abstract/document/10585836)  
-[![BibTeX](https://img.shields.io/badge/BibTeX-Citation-orange?logo=bibtex)](https://uofi.box.com/s/0cxpk70we719hxcqsdn3bx05lw9yfsth)  
-[![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/SITL-Eng/CRCD)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2312.01183)  [![IEEE](https://img.shields.io/badge/IEEE-Paper-blue?logo=ieee)](https://ieeexplore.ieee.org/abstract/document/10585836)  [![BibTeX](https://img.shields.io/badge/BibTeX-Citation-orange?logo=bibtex)](https://uofi.box.com/s/0cxpk70we719hxcqsdn3bx05lw9yfsth)  [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/SITL-Eng/CRCD)
 
 ### Updates
 Expanded version of CRCD published in **Journal of Medical Robotics Research (JMRR):**  
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2412.12238#)  
-[![JMRR](https://img.shields.io/badge/JMRR-World%20Scientific-blue)](https://doi.org/10.1142/S2424905X25500060)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv)](https://arxiv.org/abs/2412.12238#)  [![JMRR](https://img.shields.io/badge/JMRR-World%20Scientific-blue)](https://doi.org/10.1142/S2424905X25500060)
 
 ---
 
@@ -45,9 +41,9 @@ Expanded version of CRCD published in **Journal of Medical Robotics Research (JM
   Provides **stereo endoscopic camera calibrations** and **background info of each surgeon**.  
   [Download Link](https://uofi.box.com/s/w65rui5ylm0i4v4jvlkpacpi4q6jkdpe)
 
-- **Synchronized Dataset (HuggingFace)**
+- **Synchronized Dataset**  
+  Contains synchronized **endoscopic videos**, **da Vinci kinematics**, and **console pedal usage**.
   [![Hugging Face](https://img.shields.io/badge/HuggingFace-Dataset-yellow?logo=huggingface)](https://huggingface.co/datasets/SITL-Eng/CRCD)
-  Contains the synchronized **endoscopic videos**, **da Vinci kinematics**, and **console pedal usage**.
 
 ---
 
