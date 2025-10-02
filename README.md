@@ -56,6 +56,14 @@ Example usage and tutorials are available in the [notebooks/](notebooks/) folder
 
 ---
 
+## 📄 License
+
+The dataset and documentation in this repository are licensed under the [CC-BY-4.0](LICENSE-DS).
+
+The source code used to generate or process the data is licensed under the [MIT License](LICENSE).
+
+---
+
 ## Citation
 
 If you use CRCD in your research, please cite:
